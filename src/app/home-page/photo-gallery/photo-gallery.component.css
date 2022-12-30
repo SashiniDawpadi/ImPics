@@ -1,0 +1,56 @@
+.gallery {
+  padding-left: 10%;
+  padding-right: 10%;
+  box-sizing: border-box;
+  margin: 40px 0;
+}
+
+.gallery h2 {
+  color: #535353;
+  font-weight: 500;
+  font-size: 26px;
+  margin: 20px 12px;
+}
+
+.masonary {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 1700px;
+  margin: auto;
+  width: 100%;
+}
+
+.m-block {
+  width: 33.33%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.m-block img {
+  width: 100%;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+.m-block img:hover {
+  transform: scale(1.05);
+}
+
+.explore-btn {
+  display: block;
+  width: 50%;
+  max-width: 350px;
+  background: #ff5361;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 0;
+  border-radius: 30px;
+  margin: 60px auto;
+  font-size: 18px;
+  transition: transform 0.5s;
+}
+
+.explore-btn:hover {
+  transform: scale(0.9);
+}

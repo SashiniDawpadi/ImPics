@@ -1,17 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PhotoGalleryComponent } from './photo-gallery/photo-gallery.component';
-import { HomePageComponent } from './home-page.component';
-
-
+import { MainPageComponent } from './main-page/main-page.component';
 
 @NgModule({
-  declarations: [
-    PhotoGalleryComponent,
-    HomePageComponent
-  ],
-  imports: [
-    CommonModule
-  ]
+  declarations: [PhotoGalleryComponent, MainPageComponent],
+  imports: [CommonModule],
 })
-export class HomePageModule { }
+export class HomePageModule {}
