@@ -2,9 +2,11 @@
   <nav>
     <img src="../assets/logo.png" alt="" class="logo" />
     <ul>
-      <li><a href="">Discover</a></li>
-      <li><a href="">Login</a></li>
-      <li><a href="">Sign Up</a></li>
+      <li><a href="" (click)="discover()">Discover</a></li>
+      <li><a href="" [routerLink]="['/login']" (click)="login()">Login</a></li>
+      <li>
+        <a href="" [routerLink]="['/signup']" (click)="signup()">Sign Up</a>
+      </li>
     </ul>
     <a href="" class="upload-btn">Uplolad</a>
   </nav>

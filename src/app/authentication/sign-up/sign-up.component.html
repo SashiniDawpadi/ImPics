@@ -1,1 +1,14 @@
-<p>sign-up works!</p>
+<mat-card>
+  <mat-card-title>Sign Up Form</mat-card-title>
+  <mat-card-content>
+    <form [formGroup]="signUpForm">
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>First Name</mat-label>
+           <input matInput placeholder="First Name"/>
+          <!-- <mat-error *ngIf ="signUpForm.controls['fName'].errors && signUpForm.controls['fName'].hasError('required')">Student ID is required</mat-error>  -->
+        </mat-form-field> 
+      </p>
+    </form>
+  </mat-card-content>
+</mat-card>
